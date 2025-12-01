@@ -42,12 +42,12 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Link
-              href="/sign-up"
+            <a
+              href="mailto:kyle@ktp-training.com?subject=Free Session Request"
               className="bg-[#2071fe] text-white px-6 py-2 rounded text-sm font-medium hover:bg-[#1a5fd4] transition-colors"
             >
               CLAIM FREE SESSION
-            </Link>
+            </a>
             <Link
               href="https://app.coachiq.io/ktptraining"
               target="_blank"
@@ -104,13 +104,13 @@ export default function Header() {
               </Link>
             ))}
             <div className="pt-4 space-y-3">
-              <Link
-                href="/sign-up"
+              <a
+                href="mailto:kyle@ktp-training.com?subject=Free Session Request"
                 className="block bg-[#2071fe] text-white px-6 py-3 rounded text-center text-sm font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 CLAIM FREE SESSION
-              </Link>
+              </a>
               <Link
                 href="https://app.coachiq.io/ktptraining"
                 target="_blank"

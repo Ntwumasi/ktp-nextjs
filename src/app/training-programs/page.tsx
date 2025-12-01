@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 export const metadata = {
   title: 'Training Programs | KTP Training',
@@ -86,12 +85,12 @@ export default function TrainingProgramsPage() {
                     </li>
                   ))}
                 </ul>
-                <Link
-                  href="/sign-up"
+                <a
+                  href="mailto:kyle@ktp-training.com?subject=Free Session Request"
                   className="inline-block bg-[#2071fe] text-white px-8 py-3 rounded text-sm font-semibold hover:bg-[#1a5fd4] transition-colors"
                 >
                   GET STARTED
-                </Link>
+                </a>
               </div>
             ))}
           </div>
@@ -146,12 +145,12 @@ export default function TrainingProgramsPage() {
           <p className="text-white/90 text-lg mb-8">
             Sign up today to schedule your FREE trial session!
           </p>
-          <Link
-            href="/sign-up"
+          <a
+            href="mailto:kyle@ktp-training.com?subject=Free Session Request"
             className="inline-block bg-white text-[#2071fe] px-10 py-4 rounded text-sm font-semibold hover:bg-gray-100 transition-colors"
           >
             CLAIM FREE SESSION
-          </Link>
+          </a>
         </div>
       </section>
     </div>

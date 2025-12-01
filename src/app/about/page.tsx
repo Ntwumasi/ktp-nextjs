@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'About | KTP Training',
@@ -44,10 +44,12 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="relative aspect-square bg-[#333] rounded-lg overflow-hidden">
-              <img
-                src="https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Basketball training"
-                className="w-full h-full object-cover"
+              <Image
+                src="/kp.jpg"
+                alt="Kyle Thistle-Pierce - Basketball Coach"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
           </div>
@@ -87,12 +89,12 @@ export default function AboutPage() {
           <p className="text-white/90 text-lg mb-8">
             Schedule your free trial session today and take the first step toward improving your game.
           </p>
-          <Link
-            href="/sign-up"
+          <a
+            href="mailto:kyle@ktp-training.com?subject=Free Session Request"
             className="inline-block bg-white text-[#2071fe] px-10 py-4 rounded text-sm font-semibold hover:bg-gray-100 transition-colors"
           >
             CLAIM FREE SESSION
-          </Link>
+          </a>
         </div>
       </section>
     </div>

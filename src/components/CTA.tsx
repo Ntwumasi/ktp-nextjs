@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 export default function CTA() {
   return (
     <section className="relative py-24 md:py-32 bg-[#111]">
@@ -7,7 +5,7 @@ export default function CTA() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1504450758481-7338bbe75c8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80)',
+          backgroundImage: 'url(/HeroHeader.avif)',
         }}
       >
         <div className="absolute inset-0 bg-black/75"></div>
@@ -24,12 +22,12 @@ export default function CTA() {
         <p className="text-lg md:text-xl text-gray-300 mb-10">
           Sign up today to schedule a FREE trial session!
         </p>
-        <Link
-          href="/sign-up"
+        <a
+          href="mailto:kyle@ktp-training.com?subject=Free Session Request"
           className="inline-block bg-[#2071fe] text-white px-10 py-4 rounded text-sm font-semibold hover:bg-[#1a5fd4] transition-colors"
         >
           GET STARTED
-        </Link>
+        </a>
       </div>
     </section>
   );
