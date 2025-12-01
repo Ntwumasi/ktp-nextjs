@@ -5,7 +5,7 @@ export default function CTA() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(/HeroHeader.avif)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=2000&q=80)',
         }}
       >
         <div className="absolute inset-0 bg-black/75"></div>
