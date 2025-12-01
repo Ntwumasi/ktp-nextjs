@@ -66,14 +66,14 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} KTP Training. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm">
-            Powered by{' '}
+            Built by{' '}
             <a
-              href="https://coachiq.io"
+              href="https://kodedit.io"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#2071fe] hover:underline"
             >
-              CoachIQ
+              Kodedit
             </a>
           </p>
         </div>
