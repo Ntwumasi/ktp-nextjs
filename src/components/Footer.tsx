@@ -53,6 +53,9 @@ export default function Footer() {
               <Link href="/training-programs" className="block text-gray-400 hover:text-[#2071fe] transition-colors">
                 Training Programs
               </Link>
+              <Link href="/personal-training" className="block text-gray-400 hover:text-[#2071fe] transition-colors">
+                Personal Training
+              </Link>
               <Link href="/sign-up" className="block text-gray-400 hover:text-[#2071fe] transition-colors">
                 Sign Up
               </Link>
