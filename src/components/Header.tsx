@@ -8,6 +8,7 @@ const navItems = [
   { label: 'HOME', href: '/' },
   { label: 'ABOUT', href: '/about' },
   { label: 'TRAINING PROGRAMS', href: '/training-programs' },
+  { label: 'PERSONAL TRAINING', href: '/personal-training' },
 ];
 
 export default function Header() {
