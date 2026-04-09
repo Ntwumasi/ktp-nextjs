@@ -35,7 +35,7 @@ export default function Hero() {
           {/* Buttons - full width on mobile, inline on desktop */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <a
-              href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+              href="/claim-free-session"
               className="w-full sm:w-auto text-center bg-[#2071fe] text-white px-8 py-4 rounded-lg text-sm font-semibold hover:bg-[#1a5fd4] transition-all hover:scale-105 active:scale-95"
             >
               GET STARTED FREE

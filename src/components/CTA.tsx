@@ -23,7 +23,7 @@ export default function CTA() {
           Sign up today to schedule a FREE trial session!
         </p>
         <a
-          href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+          href="/claim-free-session"
           className="inline-block bg-[#2071fe] text-white px-10 py-4 rounded text-sm font-semibold hover:bg-[#1a5fd4] transition-colors"
         >
           GET STARTED

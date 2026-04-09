@@ -86,7 +86,7 @@ export default function TrainingProgramsPage() {
                   ))}
                 </ul>
                 <a
-                  href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+                  href="/claim-free-session"
                   className="inline-block bg-[#2071fe] text-white px-8 py-3 rounded text-sm font-semibold hover:bg-[#1a5fd4] transition-colors"
                 >
                   GET STARTED
@@ -146,7 +146,7 @@ export default function TrainingProgramsPage() {
             Sign up today to schedule your FREE trial session!
           </p>
           <a
-            href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+            href="/claim-free-session"
             className="inline-block bg-white text-[#2071fe] px-10 py-4 rounded text-sm font-semibold hover:bg-gray-100 transition-colors"
           >
             CLAIM FREE SESSION

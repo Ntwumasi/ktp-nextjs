@@ -90,7 +90,7 @@ export default function AboutPage() {
             Schedule your free trial session today and take the first step toward improving your game.
           </p>
           <a
-            href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+            href="/claim-free-session"
             className="inline-block bg-white text-[#2071fe] px-10 py-4 rounded text-sm font-semibold hover:bg-gray-100 transition-colors"
           >
             CLAIM FREE SESSION

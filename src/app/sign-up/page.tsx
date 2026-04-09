@@ -29,7 +29,7 @@ export default function SignUpPage() {
           <div className="grid md:grid-cols-2 gap-8">
             {/* Email Card */}
             <a
-              href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+              href="/claim-free-session"
               className="bg-[#111] rounded-lg p-8 md:p-10 border border-[#333] hover:border-[#2071fe] transition-colors group text-center"
             >
               <div className="w-16 h-16 bg-[#2071fe]/20 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -140,7 +140,7 @@ export default function SignUpPage() {
             No commitment needed. Come see what KTP Training is all about.
           </p>
           <a
-            href="mailto:kyle@ktp-training.com?subject=Free Session Request"
+            href="/claim-free-session"
             className="inline-block bg-white text-[#2071fe] px-10 py-4 rounded text-sm font-semibold hover:bg-gray-100 transition-colors"
           >
             CLAIM FREE SESSION
